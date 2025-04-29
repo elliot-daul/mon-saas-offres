@@ -26,7 +26,8 @@ export default function Dashboard() {
         ) : (
           // Si plus de crédits ➔ afficher message et bouton abonnement
           <div className="flex flex-col items-center gap-4">
-            <p className="text-red-500 font-semibold">Vous n'avez plus d'essais gratuits disponibles.</p>
+            <p className="text-red-500 font-semibold">Vous n&#39;avez plus d&#39;essais gratuits disponibles.</p>
+
             <Link href="/pricing">
               <button className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700 transition">
                 Devenir Premium
